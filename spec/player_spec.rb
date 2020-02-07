@@ -22,7 +22,6 @@ describe Player do
     end
   end
 
-
   describe " #receive_damage" do
     it "should reduce score by specified value" do
       dave.receive_damage
